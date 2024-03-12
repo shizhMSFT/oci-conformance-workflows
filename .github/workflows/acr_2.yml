@@ -1,15 +1,11 @@
 name: acr-2
 on:
-  repository_dispatch:
-    types:
-      - manual-trigger
-      - manual-trigger-acr
-      - manual-trigger-acr-2
+  workflow_dispatch:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: "0 6 * * *"
 permissions:
-      id-token: write
-      contents: read
+  id-token: write
+  contents: read
 jobs:
   run:
     runs-on: ubuntu-latest
