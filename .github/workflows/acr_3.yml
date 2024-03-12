@@ -19,3 +19,4 @@ jobs:
           OCI_PASSWORD: ${{ secrets.ACR_PASSWORD }}
           OCI_TEST_CONTENT_DISCOVERY: 1
           OCI_HIDE_SKIPPED_WORKFLOWS: 1
+          OCI_DEBUG: 0

@@ -20,3 +20,4 @@ jobs:
           OCI_TEST_PUSH: 1
           OCI_HIDE_SKIPPED_WORKFLOWS: 1
           OCI_CROSSMOUNT_NAMESPACE: ocitest/mount-source
+          OCI_DEBUG: 0
